@@ -6,15 +6,15 @@ Connect your OnStay host account to Antigravity to view homes, inspect calendars
 
 1. Install **OnStay** from the Marketplace (or run `agy plugin install https://github.com/keeptahoeblueish/onstay-plugin`).
 2. Under **Customizations > Installed > MCP Servers**, click **Authenticate** next to `onstay` (or start a prompt that uses OnStay).
-3. Sign in with your OnStay email or mobile number on `https://onstay.ai`, choose **View only** or **View and change**, select **All homes** or a single home, and click **Allow**.
+3. Sign in with your OnStay email or mobile number on `https://onstay.ai`. Check the OnStay account the page names; choose **Use a different account** if it is the wrong one. Choose **View only** or **View and change**, select **All my homes** or a single home, and click **Allow**. A home's partial-home listings come with it.
 
 Alternatively, you can connect with a scoped Host API key (`onstay_live_...`) created in **Settings -> Integrations** at `https://onstay.ai/settings?tab=integrations`.
 
 ## Included Capabilities
 
 ### View (`onstay:view`)
-- **Homes & Details**: `list_properties`, `get_property` (check-in/out times, Wi-Fi network name, parking, readiness, equipment guides; Wi-Fi passwords and door codes are never exposed).
-- **Calendars**: `get_calendar` (stays and blocked dates across any date range).
+- **Homes & Details**: `list_properties`, `get_property` (check-in/out times, Wi-Fi network name, parking, readiness, equipment guides, partial-home listings; Wi-Fi passwords and door codes are never exposed).
+- **Calendars**: `get_calendar` (stays and blocked dates across any date range, each naming the partial-home listing it came through; blocks a booking site copies from another listing's stay are left out).
 - **Guest Conversations & Activity**: `list_guest_conversations`, `get_guest_conversation`, `get_portfolio_analytics`.
 - **Operations & Crew**: `get_property_os` (early check-in policy, turnover crew contacts, house notes, and early check-in requests).
 
