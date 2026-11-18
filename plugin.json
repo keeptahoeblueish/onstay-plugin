@@ -1,0 +1,29 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "onstay",
+  "displayName": "OnStay",
+  "version": "1.0.0",
+  "description": "Manage OnStay homes, calendars, blocked dates, guest questions, concierge knowledge, and turnover settings through OnStay's hosted MCP server.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Show my OnStay homes and any guest questions waiting for my answer",
+    "Check next month's calendar across my homes and summarize open dates",
+    "Teach my home's concierge where extra beach towels are kept"
+  ],
+  "author": {
+    "name": "OnStay",
+    "url": "https://onstay.ai"
+  },
+  "homepage": "https://onstay.ai/mcp",
+  "license": "MIT",
+  "keywords": [
+    "onstay",
+    "hospitality",
+    "vacation-rental",
+    "concierge",
+    "calendar",
+    "property-management",
+    "mcp"
+  ],
+  "repository": "https://github.com/keeptahoeblueish/onstay-plugin"
+}

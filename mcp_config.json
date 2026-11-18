@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "onstay": {
+      "serverUrl": "https://onstay.ai/api/mcp"
+    }
+  }
+}

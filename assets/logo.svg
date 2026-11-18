@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 100 100" role="img" aria-label="OnStay">
+  <defs>
+    <radialGradient id="ob" cx="37%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#3A342E"></stop>
+      <stop offset="0.5" stop-color="#2C2825"></stop>
+      <stop offset="1" stop-color="#1C1917"></stop>
+    </radialGradient>
+    <radialGradient id="hl" cx="36%" cy="26%" r="52%">
+      <stop offset="0" stop-color="#E4C686" stop-opacity="0.55"></stop>
+      <stop offset="1" stop-color="#E4C686" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="hl2" cx="72%" cy="82%" r="46%">
+      <stop offset="0" stop-color="#CEAA68" stop-opacity="0.45"></stop>
+      <stop offset="1" stop-color="#CEAA68" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="42" fill="url(#ob)"></circle>
+  <circle cx="50" cy="50" r="42" fill="url(#hl)"></circle>
+  <circle cx="50" cy="50" r="42" fill="url(#hl2)"></circle>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#B49A5B" stroke-opacity="0.32" stroke-width="1.2"></circle>
+  <g fill="none" stroke="#F6F2EA" stroke-width="4.6" stroke-linecap="round">
+    <path d="M33.5 47.4V52.6"></path>
+    <path d="M40.1 40.4V59.6"></path>
+    <path d="M46.7 34.4V65.6"></path>
+    <path d="M53.3 44V56"></path>
+    <path d="M59.9 38.7V61.3"></path>
+    <path d="M66.5 47.4V52.6"></path>
+  </g>
+</svg>
